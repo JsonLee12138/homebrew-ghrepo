@@ -3,7 +3,7 @@ cask "ghrepo" do
   name "ghrepo"
   desc "GitHub repository CLI tool"
   homepage "https://github.com/JsonLee12138/ghrepo"
-  version "0.2.0"
+  version "0.3.0"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "ghrepo" do
   on_macos do
     on_intel do
       url "https://github.com/JsonLee12138/ghrepo/releases/download/v#{version}/ghrepo_#{version}_darwin_amd64.tar.gz"
-      sha256 "c7aae50c2a8db72a7c759fd64203325d1b2243fa87c76b2738e54c7a4f95735b"
+      sha256 "7613d7f31c65acdf235a2b07a605fc7bcd68e480aefa141c2fc58ec77b283d27"
     end
     on_arm do
       url "https://github.com/JsonLee12138/ghrepo/releases/download/v#{version}/ghrepo_#{version}_darwin_arm64.tar.gz"
-      sha256 "025dd501a000e9d4860b23ce2652513c111274a8dcab946d14850491561a12cf"
+      sha256 "f96e61270a335e7bf92fe7e27c2514c6ddd87d93681e8abdfbf3e68a0453f59a"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/JsonLee12138/ghrepo/releases/download/v#{version}/ghrepo_#{version}_linux_amd64.tar.gz"
-      sha256 "55a1692db3bac4c980213c7c2d2d64f7a26a2617aea4feaa58c5ae8d61a4b0d9"
+      sha256 "05e5e7f728c91aa148b9587e158e77281a429debb05fedd75167531f053e4ebe"
     end
     on_arm do
       url "https://github.com/JsonLee12138/ghrepo/releases/download/v#{version}/ghrepo_#{version}_linux_arm64.tar.gz"
-      sha256 "b26b05c8f68fbc724c045d78bc9c135f75db8d65be85a77c2d35693cff23d65c"
+      sha256 "5c8c935aafc14c354803b1b070b612ef708d7b3fea8dfd73d842b4e5094b09cb"
     end
   end
 
